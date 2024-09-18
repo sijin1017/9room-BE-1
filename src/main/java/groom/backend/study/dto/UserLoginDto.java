@@ -16,4 +16,7 @@ public class UserLoginDto {
 
     @NotEmpty
     private String password;
+
+    public UserLoginDto(String mail, String password) {
+    }
 }

@@ -17,4 +17,7 @@ public class UserRegisterDto {
 
     @NotEmpty
     private String role; // STUDENT or ADMIN
+
+    public UserRegisterDto(String mail, String password, String student) {
+    }
 }

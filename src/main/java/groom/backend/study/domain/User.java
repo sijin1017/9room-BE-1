@@ -22,4 +22,7 @@ public class User {
 
     @Column(nullable = false)
     private String role; // STUDENT or ADMIN
+
+    public User(String mail, String encodedPassword, String student) {
+    }
 }
